@@ -21,3 +21,19 @@ router.post("/login", async (request, response) => {
 });
 
 export default router;
+
+// POST: http://localhost:3001/user/register
+// Body => raw => JSON:
+// {
+//   "firstName": "Yahya",
+//   "lastName": "Y",
+//   "email": "ya@y.com",
+//   "password": "123ddd"
+// }
+
+// POST: http://localhost:3001/user/login
+// Body => raw => JSON:
+// {
+//   "email": "ya@y.com",
+//   "password": "123ddd"
+// }
