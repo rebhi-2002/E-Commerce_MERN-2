@@ -1,0 +1,292 @@
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm init -y
+Wrote to D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce\package.json:
+
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
+
+D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce\package.json:
+>> package.json:
+  "scripts": {
+    "dev": "nodemon"
+  },
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm i express mongoose typescript
+
+added 84 packages, and audited 85 packages in 13s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm i --save-dev nodemon ts-node 
+
+added 46 packages, and audited 131 packages in 9s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npx tsc --init
+
+Created a new tsconfig.json with:                                                                                
+                                                                                                              TS 
+  target: es2016
+  module: commonjs
+  strict: true
+  esModuleInterop: true
+  skipLibCheck: true
+  forceConsistentCasingInFileNames: true
+
+
+You can learn more at https://aka.ms/tsconfig
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> 
+
+D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce\tsconfig.json:
+>> tsconfig.json:
+  {
+    "compilerOptions": {...},
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm i --save-dev @types/express
+
+added 10 packages, and audited 141 packages in 6s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce\nodemon.json:
+>> nodemon.json:
+  {
+    "watch": ["src"],
+    "ext": ".ts,.js",
+    "ignore": [],
+    "exec": "ts-node ./src/index.ts"
+  }
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm run dev
+
+> e-commerce@1.0.0 dev
+> nodemon
+
+[nodemon] 3.1.10
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src\**\*
+[nodemon] watching extensions: ts,js
+[nodemon] starting `ts-node ./src/index.ts`
+Server is running at: http://localhost:3001
+Mongo connected!
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm i bcrypt
+
+added 3 packages, and audited 144 packages in 5s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm i --save-dev @types/bcrypt
+
+added 1 package, and audited 145 packages in 3s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm i jsonwebtoken
+
+added 12 packages, and audited 157 packages in 12s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> npm i --save-dev @types/jsonwebtoken
+
+added 2 packages, and audited 159 packages in 3s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+------------------------------------------------
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> git init
+Initialized empty Git repository in D:/مجلد جديد/Windsurf/Yehia Tech/Course MERN/E-Commerce/.git/
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> 
+
+(Ctrl + Shift + E) => Source Control => Changes => Commit: Initial Commit + User Feature
+
+------------------------------------------------
+
+E-Commerce_MERN-2  Public
+Start coding with Codespaces
+Add a README file and start coding in a secure, configurable, and dedicated development environment.
+Create a codespace: https://github.com/codespaces/new/rebhi-2002/E-Commerce_MERN-2?auto_init=1&resume=1
+
+Add collaborators to this repository
+Search for people using their GitHub username or email address.
+Invite collaborators: https://github.com/rebhi-2002/E-Commerce_MERN-2/settings/access
+
+
+Quick setup — if you’ve done this kind of thing before
+Set up in Desktop: https://desktop.github.com or	HTTPS|SSH https://github.com/rebhi-2002/E-Commerce_MERN-2.git
+Get started by creating a new file: https://github.com/rebhi-2002/E-Commerce_MERN-2/new/main or uploading an existing file: https://github.com/rebhi-2002/E-Commerce_MERN-2/upload. We recommend every repository include a README: https://github.com/rebhi-2002/E-Commerce_MERN-2/new/main?readme=1, LICENSE: https://github.com/rebhi-2002/E-Commerce_MERN-2/new/main?filename=LICENSE.md, and .gitignore: https://github.com/rebhi-2002/E-Commerce_MERN-2/new/main?filename=.gitignore.
+
+…or create a new repository on the command line
+echo "# E-Commerce_MERN-2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rebhi-2002/E-Commerce_MERN-2.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/rebhi-2002/E-Commerce_MERN-2.git
+git branch -M main
+git push -u origin main
+
+ProTip! Use the URL for this page when adding GitHub as a remote.
+
+------------------------------------------------
+
+https://github.com/rebhi-2002/E-Commerce_MERN-2
+https://github.com/settings/tokens/new => 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
+
+git remote add origin https://(USER-NAME):PASSWORD(TOKEN)@github.com/rebhi-2002/E-Commerce_MERN-2.git
+git remote add origin https://rebhi-2002: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@github.com/rebhi-2002/E-Commerce_MERN-2.git
+
+------------------------
+
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> git remote add origin https://rebhi-2002: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@github.com/rebhi-2002/E-Commerce_MERN-2.git
+error: remote origin already exists.
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> git branch -M main
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce> git push -u origin main
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/rebhi-2002/E-Commerce_MERN-2.git/'
+PS D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce>
+
+------------------------
+
+✅ 1. الخطأ:
+error: remote origin already exists.
+🔹 السبب: قمت مسبقًا بإضافة remote باسم origin.
+🔹 الحل: إما تحذف الـ origin الحالي وتضيف الجديد:
+
+git remote remove origin
+git remote add origin https://github.com/rebhi-2002/E-Commerce_MERN-2.git
+
+❌ 2. الخطأ:
+remote: Invalid username or password.
+fatal: Authentication failed
+
+🔹 السبب: الرابط الذي استخدمته يحتوي على اسم المستخدم والتوكن بداخل الـ URL، وهذا الأسلوب لم يعد مدعومًا في GitHub منذ فترة لأسباب أمنيّة.
+
+✅ الحل المقترح للمصادقة:
+الطريقة الآمنة:
+أولًا احذف الـ remote كما قلنا:
+git remote remove origin
+
+أضف الـ remote بالشكل التقليدي:
+git remote add origin https://github.com/rebhi-2002/E-Commerce_MERN-2.git
+
+ثم عند تنفيذ:
+git push -u origin main
+
+سيطلب منك Git:
+Username: اكتب اسم المستخدم الخاص بك على GitHub.
+Password: أدخل الـ Personal Access Token (وليس كلمة المرور العادية).
+
+🔑 لو لم يكن لديك توكن بعد، يمكنك إنشاؤه من هنا:
+https://github.com/settings/tokens
+
+ثم اختر:
+repo
+workflow
+write:packages
+واحفظ التوكن واحتفظ به، لأنه يظهر مرة واحدة فقط.
+
+------------------------------------------------
+
+D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce>git remote remove origin
+
+D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce>git remote add origin https://github.com/rebhi-2002/E-Commerce_MERN-2.git
+
+D:\مجلد جديد\Windsurf\Yehia Tech\Course MERN\E-Commerce>git push -u origin main
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (16/16), 24.74 KiB | 1.65 MiB/s, done.
+Total 16 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/rebhi-2002/E-Commerce_MERN-2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+======================================================================
+
+(Ctrl + Shift + E) => Source Control => Changes => Commit: Product feature
+
+
+Microsoft Windows [Version 10.0.22631.5413]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rebhi>pip install git-filter-repo
+'pip' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rebhi>python --version
+Python 3.13.1
+
+C:\Users\rebhi>python -m ensurepip --upgrade
+Looking in links: c:\Users\rebhi\AppData\Local\Temp\tmp7ltb2lhe
+Processing c:\users\rebhi\appdata\local\temp\tmp7ltb2lhe\pip-24.3.1-py3-none-any.whl
+Installing collected packages: pip
+Successfully installed pip-24.3.1
+
+C:\Users\rebhi>python -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\rebhi\appdata\local\programs\python\python313\lib\site-packages (24.3.1)
+Collecting pip
+  Downloading pip-25.1.1-py3-none-any.whl.metadata (3.6 kB)
+Downloading pip-25.1.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 820.9 kB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.3.1
+    Uninstalling pip-24.3.1:
+      Successfully uninstalled pip-24.3.1
+Successfully installed pip-25.1.1
+
+C:\Users\rebhi>python -m pip install git-filter-repo
+Collecting git-filter-repo
+  Downloading git_filter_repo-2.47.0-py3-none-any.whl.metadata (31 kB)
+Downloading git_filter_repo-2.47.0-py3-none-any.whl (76 kB)
+Installing collected packages: git-filter-repo
+Successfully installed git-filter-repo-2.47.0
+
+C:\Users\rebhi> pip install git-filter-repo
+Requirement already satisfied: git-filter-repo in c:\users\rebhi\appdata\local\programs\python\python313\lib\site-packages (2.47.0)
+
